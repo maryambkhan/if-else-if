@@ -22,5 +22,5 @@
 - MDN
 
 
--[GH repo](https://github.com/maryambkhan/if-else-if)
--[GH pages]()
+- [GH repo](https://github.com/maryambkhan/if-else-if)
+- [GH pages](https://maryambkhan.github.io/if-else-if/)
