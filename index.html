@@ -7,29 +7,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Form</title>
   <script src="js/form.js" defer></script>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-  <form>
+<body class="title">
+  <h1>Colors</h1>
+  <form id="form" action="">
     <fieldset>
-      <legend>Purpose of Email</legend>
-       <div>
-      <label for="bussines">Business Inquiries</label>
-      <input type="checkbox" value="business" id="business">
-      <label for="cake">Customer Service</label>
-      <input type="checkbox" value="customerservice" id="customerservice">
-       </div>
-      <fieldset>
-        <legend>Basic Info</legend>
-        <label for="user">First Name</label>
-        <input type="text" name="user" id="user" placeholder="required" required>
-        <label for="user">Last Name</label>
-        <input type="text" name="lastname" id="lastname" placeholder="required" required>
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" placeholder="required" required>
-        <label for="address">Password</label>
-        <input type="text" name="password" id="password" placeholder="password">
-      </fieldset>
+      <legend>Favourite Color</legend>
+      <div>
+      <label for="color">Options</label>
+      <select name="color" id="color">
+        <option value="select" selected="">Select</option>
+        <option value="red">Red</option>
+        <option value="orange">Orange</option>
+        <option value="yellow">Yellow</option>
+        <option value="purple">Purple</option>
+        <option value="cyan">Cyan</options>
+      </select>
+      </div>
+      <button type="submit">Submit</button>
+      <h3><output id="output"></output></h3>
+    </fieldset>
   </form>
 
 
